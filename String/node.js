@@ -10,10 +10,10 @@ console.log(theterror.indexOf("?"));
 console.log(theterror.replace("dad","tud"));
 console.log(theterror.indexOf(" "));
 
-let numero = theterror
+let cantidad = theterror
 
 
-  if(numero % 2 == 0) {
+  if(cantidad % 2 === 0) {
     console.log("par");
   }
   else {
@@ -21,20 +21,44 @@ let numero = theterror
   }
 
 
+ let resultado = theterror;
+  
+ // Comprobar mayúsculas y minúsculas
 
- 
-  let resultado = theterror
- 
-  // Comprobar mayúsculas y minúsculas
-
-  if(resultado == theterror.toUpperCase()) {
+  if(resultado === theterror.toUpperCase()) {
     console.log("está formada sólo por mayúsculas");
   }
-  else if(resultado == theterror.toLowerCase()) {
+  else if(resultado === theterror.toLowerCase()) {
     console.log("está formada sólo por minúsculas");
   }
   else {
     console.log("está formada por mayúsculas y minúsculas");
   }
  
+  let letra = "s";  
+    switch (letra) {
+    
+       case 'a':
+       console.log('es una primera vocal');
+       break;
+       case 'e':
+       console.log('es una segunda vocal');
+       break;
+       case 'i':
+       console.log('es una tercera vocal');
+       break;
+       case 'o':
+       console.log('es una cuarta vocal');
+       break;
+       case 'u':
+       console.log('es una quinta vocal');
+       break;
+       default:
+       console.log('es una consonante');
+       } 
   
+    
+    
+
+
+
